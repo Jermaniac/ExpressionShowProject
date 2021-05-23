@@ -1,9 +1,9 @@
 import React from 'react'
 
-import InfoExpressions from './InfoComponent'
+import InfoExpressions from './InfoExpressionsComponent'
 
 import '../styles/App.css'
-import { changeExpressions, changePhoto } from '../redux/actionCreators';
+import { changeExpressions, changePhoto } from '../../redux/actionCreators';
 
 import { connect } from 'react-redux'
 import FormComponent from './FormComponent';

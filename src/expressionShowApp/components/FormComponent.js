@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ImageUploadService from '../services/image-upload.service';
+import ImageUploadService from '../services/imageUpload.service';
 import '../styles/FormComponent.css'
 
 function FormComponent({ changeExpressions, changePhoto, photo }) {
